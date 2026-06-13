@@ -68,19 +68,6 @@ npm run build
 
 Outputs static files to `dist/`.
 
-## Deploy to Netlify
-
-1. Push this project to a Git repository (GitHub/GitLab/Bitbucket).
-2. In Netlify, click "Add new site -> Import an existing project" and select
-   the repo.
-3. Netlify will read `netlify.toml` automatically:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-4. Deploy. The SPA redirect rule in `netlify.toml` ensures client-side routing
-   works on refresh/deep links.
-
-Alternatively, drag-and-drop the `dist/` folder (after running
-`npm run build`) into the Netlify dashboard for a manual deploy.
 
 ## Run on a Node server
 
